@@ -8,6 +8,15 @@ export default function Host() {
   return (
     PLASMIC && (
       <div>
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-PEKZYG5K8S');
+        `}
+        </Script>
         <NextSeo
           title="Century Lab Innovation"
           description="Century Lab Innovation is a global IT company providing innovative prototyping and market testing services for Companies. We provide creative, customized, and high-quality solutions to help clients accelerate their time-to-market."
