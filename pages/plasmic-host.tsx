@@ -8,6 +8,10 @@ export default function Host() {
   return (
     PLASMIC && (
       <div>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-PEKZYG5K8S"
+          strategy="afterInteractive"
+        />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
           window.dataLayer = window.dataLayer || [];
